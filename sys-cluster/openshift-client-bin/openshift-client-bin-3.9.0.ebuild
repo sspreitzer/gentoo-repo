@@ -12,9 +12,9 @@ SRC_URI="https://github.com/openshift/origin/releases/download/v${PV}/openshift-
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64"
-IUSE=""
+IUSE="cluster"
 
-DEPEND=""
+DEPEND="cluster? ( app-emulation/docker )"
 RDEPEND="${DEPEND}"
 
 RESTRICT="binchecks strip"
