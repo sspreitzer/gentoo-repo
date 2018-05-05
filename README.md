@@ -18,6 +18,7 @@ Binary Packages
 | app-editors/atom-bin | Atom Editor |
 | net-im/yakyak-bin | Google Hangouts Client |
 | net-misc/terraform-bin | Terraform Client |
+| app-emulation/vagrant-bin | Vagrant Client |
 | app-editors/ApacheDirectoryStudio-bin | ApacheDirectoryStudio Client |
 
 ## Contributing
