@@ -18,6 +18,7 @@ Binary Packages
 | app-editors/atom-bin | Atom Editor |
 | net-im/yakyak-bin | Google Hangouts Client |
 | net-misc/terraform-bin | Terraform Client |
+| app-editors/ApacheDirectoryStudio-bin | ApacheDirectoryStudio Client |
 
 ## Contributing
 Fork this repository on GitHub and create a merge request with your enhancements or fixes.
