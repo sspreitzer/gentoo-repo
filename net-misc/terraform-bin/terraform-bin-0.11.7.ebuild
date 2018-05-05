@@ -17,8 +17,6 @@ RDEPEND="${DEPEND}"
 
 RESTRICT="binchecks strip"
 
-# S="${WORKDIR}/openshift-origin-client-tools-v${PV}-${COMMIT}-linux-64bit"
-
 S="${WORKDIR}"
 
 src_install() {
