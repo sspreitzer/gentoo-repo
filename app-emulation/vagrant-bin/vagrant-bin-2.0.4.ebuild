@@ -5,11 +5,11 @@ EAPI=6
 
 DESCRIPTION="A tool for building and distributing development environments"
 HOMEPAGE="https://www.vagrantup.com/"
-SRC_URI="https://releases.hashicorp.com/vagrant/${PV}/vagrant_${PV}_linux_amd64.zip"
+SRC_URI="https://releases.hashicorp.com/vagrant/${PV}/vagrant_${PV}_x86_64.tar.xz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="amd64"
 IUSE=""
 
 DEPEND=""
@@ -20,5 +20,6 @@ RESTRICT="binchecks strip"
 S="${WORKDIR}"
 
 src_install() {
-  dobin vagrant
+  cp -vr "${S}/opt" "${D}"
+  cp -vr "${S}/usr" "${D}"
 }
