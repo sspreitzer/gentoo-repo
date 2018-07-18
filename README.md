@@ -10,7 +10,7 @@ layman -a sspreitz
 
 ## Table of Content
 
-Binary Packages
+### Binary Packages
 
 | Ebuild | Description |
 |---|---|
@@ -20,6 +20,11 @@ Binary Packages
 | net-misc/terraform-bin | Terraform Client |
 | app-emulation/vagrant-bin | Vagrant Client |
 | app-editors/ApacheDirectoryStudio-bin | ApacheDirectoryStudio Client |
+
+### Themes
+
+| Ebuild | Description |
+|---|---|
 | x11-themes/numix | Meta Package for Numix Project Themes |
 | x11-themes/numix-icon-theme | Numix Project Icon Theme |
 | x11-themes/numix-icon-theme-circle | Numix Project Circle Icon Theme |
