@@ -20,6 +20,12 @@ Binary Packages
 | net-misc/terraform-bin | Terraform Client |
 | app-emulation/vagrant-bin | Vagrant Client |
 | app-editors/ApacheDirectoryStudio-bin | ApacheDirectoryStudio Client |
+| x11-themes/numix | Meta Package for Numix Project Themes |
+| x11-themes/numix-icon-theme | Numix Project Icon Theme |
+| x11-themes/numix-icon-theme-circle | Numix Project Circle Icon Theme |
+| x11-themes/numix-icon-theme-square | Numix Project Square Icon Theme |
+| x11-themes/numix-gtk-theme | Numix Project GTK Theme |
+| x11-themes/numix-cursor-theme | Numix Project Cursor Theme |
 
 ## Contributing
 Fork this repository on GitHub and create a merge request with your enhancements or fixes.
