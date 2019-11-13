@@ -14,7 +14,7 @@ SLOT="0"
 KEYWORDS="amd64"
 IUSE=""
 
-DEPEND="sys-fs/fuse"
+DEPEND=""
 RDEPEND="${DEPEND}"
 
 RESTRICT="binchecks strip mirror"
