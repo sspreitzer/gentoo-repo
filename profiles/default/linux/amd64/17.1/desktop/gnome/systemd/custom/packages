@@ -1,0 +1,8 @@
+gnome-base/gnome
+gnome-extra/gnome-utils
+app-editors/atom-bin
+mail-client/thunderbird
+www-client/firefox
+app-office/libreoffice
+app-portage/gentoolkit
+app-portage/eix
