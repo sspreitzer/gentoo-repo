@@ -1,11 +1,14 @@
 # Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
+
+AV="v20180908"
+AR="${PR//r/M}"
 
 DESCRIPTION="The Eclipse-based LDAP browser and directory client"
 HOMEPAGE="https://directory.apache.org/studio/"
-SRC_URI="http://mirror.switch.ch/mirror/apache/dist/directory/studio/2.0.0.v20170904-M13/ApacheDirectoryStudio-2.0.0.v20170904-M13-linux.gtk.x86_64.tar.gz"
+SRC_URI="https://mirror.init7.net/apache/directory/studio/${PV}.${AV}-${AR}/ApacheDirectoryStudio-${PV}.${AV}-${AR}-linux.gtk.x86_64.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"

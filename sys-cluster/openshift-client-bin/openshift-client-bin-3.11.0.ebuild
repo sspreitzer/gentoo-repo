@@ -10,7 +10,7 @@ HOMEPAGE="https://www.openshift.org"
 SRC_URI="https://github.com/openshift/origin/releases/download/v${PV}/openshift-origin-client-tools-v${PV}-${COMMIT}-linux-64bit.tar.gz"
 
 LICENSE="Apache-2.0"
-SLOT="0"
+SLOT="3"
 KEYWORDS="amd64"
 IUSE="cluster"
 
@@ -22,7 +22,8 @@ RESTRICT="binchecks strip"
 S="${WORKDIR}/openshift-origin-client-tools-v${PV}-${COMMIT}-linux-64bit"
 
 src_install() {
-  dobin oc
-  dodoc README.md
-  dodoc LICENSE
+	mv oc oc3
+	dobin oc3
+	dodoc README.md
+	dodoc LICENSE
 }
